@@ -1,0 +1,51 @@
+Education,Self_Employed,ApplicantIncome,LoanAmount,Loan_Amount_Term,Credit_History,Loan_Status
+Graduate,No,20000,100000,360,1,Y
+Graduate,Yes,30000,200000,360,1,Y
+Not Graduate,No,15000,90000,360,0,N
+Graduate,No,28000,180000,360,1,Y
+Not Graduate,Yes,12000,70000,360,0,N
+Graduate,Yes,35000,220000,360,1,Y
+Not Graduate,No,18000,110000,360,0,N
+Graduate,No,26000,160000,360,1,Y
+Graduate,Yes,40000,300000,360,1,Y
+Not Graduate,Yes,14000,80000,360,0,N
+Graduate,No,32000,210000,360,1,Y
+Not Graduate,No,17000,95000,360,0,N
+Graduate,Yes,45000,300000,360,1,Y
+Not Graduate,Yes,16000,85000,360,0,N
+Graduate,No,29000,175000,360,1,Y
+Graduate,Yes,50000,350000,360,1,Y
+Not Graduate,No,13000,65000,360,0,N
+Graduate,No,27000,155000,360,1,Y
+Not Graduate,Yes,19000,120000,360,0,N
+Graduate,Yes,38000,240000,360,1,Y
+Graduate,No,31000,190000,360,1,Y
+Not Graduate,No,14500,78000,360,0,N
+Graduate,Yes,42000,270000,360,1,Y
+Not Graduate,Yes,15500,82000,360,0,N
+Graduate,No,34000,215000,360,1,Y
+Graduate,No,36000,230000,360,1,Y
+Not Graduate,Yes,16500,88000,360,0,N
+Graduate,Yes,48000,320000,360,1,Y
+Not Graduate,No,15500,83000,360,0,N
+Graduate,No,29500,170000,360,1,Y
+Graduate,Yes,52000,380000,360,1,Y
+Not Graduate,Yes,17500,105000,360,0,N
+Graduate,No,33000,205000,360,1,Y
+Graduate,Yes,41000,260000,360,1,Y
+Not Graduate,No,16000,90000,360,0,N
+Graduate,No,37000,245000,360,1,Y
+Not Graduate,Yes,18500,115000,360,0,N
+Graduate,Yes,46000,310000,360,1,Y
+Not Graduate,No,14000,72000,360,0,N
+Graduate,No,30500,185000,360,1,Y
+Graduate,Yes,54000,400000,360,1,Y
+Not Graduate,Yes,17000,98000,360,0,N
+Graduate,No,35000,225000,360,1,Y
+Graduate,Yes,39000,255000,360,1,Y
+Not Graduate,No,15000,80000,360,0,N
+Graduate,No,32500,200000,360,1,Y
+Not Graduate,Yes,18000,110000,360,0,N
+Graduate,Yes,43000,280000,360,1,Y
+Not Graduate,No,13500,70000,360,0,N
+Graduate,No,36500,240000,360,1,Y

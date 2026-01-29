@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url("../images/mainlogo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgba(237, 121, 121, 0); /* transparent */
+  justify-content: center;
+}
+
+/* Navbar links */
+.nav-link {
+  color: rgb(255, 224, 51) !important;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100px;
+}
+
+/* Logo */
+.navbar-brand img {
+  border-radius: 50%;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  width: 100%;
+  padding: 5px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+}
+
+/* Marquee */
+.marquee-text {
+  font-size: 14px;
+  white-space: nowrap;
+}

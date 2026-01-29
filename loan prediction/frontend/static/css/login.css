@@ -1,0 +1,115 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* PAGE */
+body {
+  min-height: 100vh;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-image: url("../images/IMG_20250528_213553.png.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CARD */
+.form-container {
+  width: 380px;
+  padding: 35px 30px;
+  background: rgba(0, 0, 0, 0.65);
+  border-radius: 14px;
+  border: 1px solid rgba(255, 215, 120, 0.6);
+  box-shadow: 0 0 25px rgba(255, 215, 120, 0.15);
+  color: white;
+  overflow: hidden; /* ✅ IMPORTANT: keeps logo inside */
+}
+
+/* TITLE */
+.form-container h1 {
+  text-align: center;
+  color: #f5e6a8;
+  margin-bottom: 25px;
+}
+
+/* LABEL */
+.form-container label {
+  display: block;
+  text-align: center; /* ✅ CENTERED */
+  margin: 12px 0 6px;
+  color: #f5e6a8;
+  font-size: 14px;
+}
+
+/* INPUT */
+.form-container input {
+  width: 100%;
+  padding: 11px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  outline: none;
+}
+
+/* BUTTON */
+.form-container button {
+  width: 100%;
+  margin-top: 18px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #f5e6a8;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.form-container button:hover {
+  background: #e6d48d;
+}
+
+/* TOGGLE */
+.toggle {
+  margin-top: 14px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.toggle a {
+  color: #f5e6a8;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.toggle a:hover {
+  text-decoration: underline;
+}
+
+/* ✅ LOGO PERFECT CENTER FIX */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 22px;
+}
+
+.logo-container img {
+  width: 70px;       /* ✅ PERFECT SIZE */
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 6px rgba(255, 215, 120, 0.5));
+}
+
+/* FORM TOGGLE */
+form {
+  display: none;
+}
+
+form.active {
+  display: block;
+}

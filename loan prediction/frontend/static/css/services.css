@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url("../images/IMG_20250528_213553.png.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  padding: 20px;
+}
+
+.container {
+  background: transparent;
+  max-width: 800px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 30px 40px;
+  color: white;
+  text-shadow: 0 0 5px rgba(0,0,0,0.7);
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-shadow: 0 0 8px rgba(0,0,0,0.9);
+}
+
+h2 {
+  color: #d0e7ff;
+  border-bottom: 2px solid #6ca0dc;
+  padding-bottom: 6px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+p, li {
+  font-size: 1rem;
+  color: #e6e6e6;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: inside disc;
+  padding-left: 0;
+}
+
+.contact-card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-left: 4px solid #4db8ff;
+}
+
+.contact-card strong {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+a {
+  color: #aad4ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
